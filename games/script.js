@@ -99,7 +99,7 @@ let proxyEnabled = false;
 
 async function checkWebsite(url) {
   try {
-    const response = await fetch(url);
+    const response = await fetch(url, { signal: AbortSignal.timeout(5000) });
 
     if (response.ok) {
         proxyEnabled = true;
