@@ -12,6 +12,10 @@ function makeNewGameBox(dispName, link) {
   document.getElementById('games').appendChild(newDiv)
 }
 
+if (!localStorage.getItem("popup")) {
+  localStorage.setItem("popup", "true");
+  alert("Hey guys! It's Narwhal. Sorry I haven't added any new games recently, I've been focusing on updates for my other website: 2048Verse. Thanks to everyone who plays my games, it's pretty cool to see so many people using my site. I could've easily added ads or whatever to the site but I hate school and I wanted to make it easier for people to play games at school. But yeah, just wanted you guys to know I'm not dead, I just have a life now lol\n\nTL;DR: I'm not dead");
+}
 
 games = [
   ["2048Verse", "https://2048verse.com/"], 
