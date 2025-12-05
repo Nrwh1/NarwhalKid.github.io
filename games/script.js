@@ -14,6 +14,8 @@ function makeNewGameBox(dispName, link) {
 
 
 games = [
+  ["2048Verse", "https://2048verse.com/"], 
+  ["2048Verse alt link", "https://2048verse.narwhalkid.com/"], 
   ["narwhalgpt", "/chat/"],
   ["1v1.lol", "./game/1v1lol/", true], 
   ["balatro", "https://backend.narwhalkid.com/balatro"], 
@@ -23,7 +25,6 @@ games = [
   ["minesweeper", "./game/minesweeper/", true], 
   ["gladihoppers", "./game/gladihoppers/"], 
   // ["super smash flash", "./game/supersmashflash"],
-  ["2048Verse", "https://2048verse.com/"], 
   // ["crazy cattle 3d", "./game/crazycattle3d"], 
   ["the binding of isaac", "./game/bindingofisaac"], 
   ["minecraft", "./game/minecraft"], 
