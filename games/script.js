@@ -35,7 +35,6 @@ games = [
   ["clicker heroes", "./game/clickerheroes/"],
   ["retro bowl", "./game/retrobowl/"],
   ["retro bowl college", "./game/retrobowlcollege/"],
-  ["gba games", "./game/emulators/gba/"], 
   // ["unrestricted youtube", "https://inv.nadeko.net/feed/popular"], 
   ["funny shooter 2", "./game/funnyshooter2/"], 
   ["sort the court", "./game/sortthecourt/"], 
